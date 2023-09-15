@@ -41,8 +41,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 32rem;
+    min-height: 32rem;
     overflow: hidden;
+    border-radius: 0.7rem;
 }
 
 .sliderImages {
@@ -50,7 +51,7 @@ body {
     justify-content: flex-start;
     width: 400%;
     height: 32rem;
-    margin-top: 2%;
+    
 
 }
 
@@ -184,6 +185,7 @@ body {
 .textWrapper {
     display: flex;
     width: 50%;
+    height: 4.2rem;
     overflow: hidden;
 }
 
