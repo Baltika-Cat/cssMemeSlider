@@ -191,7 +191,7 @@ img {
 
 .text {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 1.1rem;
     width: 400%;
     color: #D3D3D3;
     font-size: 1.5rem;
@@ -202,7 +202,6 @@ img {
 .text p {
     width: 100vw;
     transition: 1.5s;
-    text-align: center;
 }
 
 .button:nth-child(1):checked ~ .sliderWindow .sliderBottom .textWrapper .text p {
